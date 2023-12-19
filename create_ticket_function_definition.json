@@ -1,0 +1,31 @@
+{
+    "name": "create_ticket",
+    "description": "Creates a ticket in a Slack channel. This function takes the subject, type of question, and detailed description.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "client": {
+          "type": "object",
+          "description": "Instance of the Slack Bolt app client."
+        },
+        "subject": {
+          "type": "string",
+          "description": "Subject of the ticket."
+        },
+        "type_of_question": {
+          "type": "string",
+          "description": "Type of question or issue."
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed description of the issue."
+        }
+      },
+      "required": [
+        "client",
+        "subject",
+        "type_of_question",
+        "description"
+      ]
+    }
+  }
