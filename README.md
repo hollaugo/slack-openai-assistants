@@ -20,9 +20,9 @@ The Slack Internal HR Bot is an AI assistant that can handle various tasks withi
 
 Before running the Slack Internal HR Bot, make sure you have the following prerequisites:
 
-- Python 3.x
+- Python 3.9
 - OpenAI API key
-- Slack App with a bot token
+- Slack Bot and App Tokens
 
 ## Installation
 
