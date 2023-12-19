@@ -1,0 +1,25 @@
+display_information:
+  name: HR Assistant
+features:
+  bot_user:
+    display_name: HR Assistant
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+      - app_mentions:read
+      - im:history
+      - files:read
+      - files:write
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - file_shared
+      - message.im
+  interactivity:
+    is_enabled: true
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false
