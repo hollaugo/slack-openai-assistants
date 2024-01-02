@@ -3,6 +3,8 @@ import uuid
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 from dotenv import load_dotenv
+from create_ticket import create_ticket, app
+
 
 # Load environment variables
 load_dotenv()
@@ -37,7 +39,7 @@ def create_ticket(client, subject, from_user, type_of_question, description):
     try:
         # Use the Bolt client to post the message
         response = client.chat_postMessage(
-            channel="C06A0J5FW8K",
+            channel="<Your Ticket Channel>",
             text=message,
             mrkdwn=True
         )
