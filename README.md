@@ -58,11 +58,9 @@ To use the Slack Internal HR Bot, follow these steps:
     ```
 
   For Search assistant Run `search_assistant.py`:
-
     ```
     python search_assistant.py
     ```
-
 2. Interact with the bot in your Slack workspace by sending messages.
 
 ## Key Features
