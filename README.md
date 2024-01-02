@@ -37,7 +37,7 @@ Follow these steps to install and set up the Slack Internal HR Bot:
     ```
     pip install openai slack_bolt
     ```
-  For Search Assistant install langchain
+  For Search Assistant install langchain:
     ```
     pip install openai slack_bolt langchain
     ```
@@ -58,6 +58,7 @@ To use the Slack Internal HR Bot, follow these steps:
     ```
 
   For Search assistant Run `search_assistant.py`:
+  
     ```
     python search_assistant.py
     ```
