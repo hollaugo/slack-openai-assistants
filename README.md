@@ -56,9 +56,7 @@ To use the Slack Internal HR Bot, follow these steps:
     ```
     python app.py
     ```
-
-  For Search assistant Run `search_assistant.py`:
-
+- For Search assistant Run `search_assistant.py` to start:
     ```
     python search_assistant.py
     ```
@@ -77,3 +75,8 @@ The Slack Internal HR Bot comes with the following key features:
 The Search Assistant is able to research topics when asked
 
 For a detailed setup guide for Slack application, you can watch the [Slack Setup YouTube Video](https://www.youtube.com/watch?v=HQzYIWY2O2I).
+
+## Resources 
+- [Slack Bolt SDK](https://slack.dev/bolt-python/tutorial/getting-started)
+- [OpenAI Assistants API Overview](https://platform.openai.com/docs/assistants/overview)
+- [Langchain - Tavily Search Tool](https://python.langchain.com/docs/integrations/tools/tavily_search)
